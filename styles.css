@@ -1,0 +1,57 @@
+.container {
+  border: 3px solid #4caf50;
+  border-radius: 10px;
+}
+
+.header {
+  padding: 30px 40px;
+  text-align: center;
+}
+h1 {
+  margin: 5 px;
+  text-align: ;
+}
+input {
+  width: 60%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+ol {
+  margin: 20px;
+  padding: 20px;
+}
+ol li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #d9ffcc;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+ol li:hover {
+  background: #4caf50;
+}
+ol li.checked {
+  text-decoration: line-through;
+  background: #4caf50;
+}
+.plusBtn {
+  cursor: pointer;
+  padding: 12px 20px;
+  background: #4caf50;
+  border-radius: 5px;
+}
+.plusBtn:hover {
+  background-color: #d9ffcc;
+}
+
+.deleteButton {
+  float: right;
+  width: 35px;
+  height: 35%;
+  border-radius: 5px;
+}
