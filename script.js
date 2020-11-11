@@ -20,14 +20,6 @@ function newElement() {
   }
 }
 
-const list = document.getElementsByTagName("li");
-for (var i = 0; i < list.length; i++) {
-  var span = document.createElement("span");
-  span.className = "close";
-  span.textContent = "\u00D7";
-  list[i].appendChild(span);
-}
-
 document.querySelector("ol").addEventListener("click", function (event) {
   if (event.target.tagName === "LI") {
     event.target.classList.toggle("checked");
